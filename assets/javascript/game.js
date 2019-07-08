@@ -4,11 +4,11 @@ $(document).ready(function(){
     var totalWins = 0;
     var totalLosses = 0;
     // Randomly generated values
-    var winningNum = Math.floor((Math.random() * 51) + 25);
-    var crysNum1 = Math.floor((Math.random() * 15) + 1);
-    var crysNum2 = Math.floor((Math.random() * 15) + 1);
-    var crysNum3 = Math.floor((Math.random() * 15) + 1);
-    var crysNum4 = Math.floor((Math.random() * 15) + 1);
+    var winningNum = Math.floor((Math.random() * 100) + 19);
+    var crysNum1 = Math.floor((Math.random() * 12) + 1);
+    var crysNum2 = Math.floor((Math.random() * 12) + 1);
+    var crysNum3 = Math.floor((Math.random() * 12) + 1);
+    var crysNum4 = Math.floor((Math.random() * 12) + 1);
     console.log(crysNum1);
     console.log(crysNum2);
     console.log(crysNum3);
@@ -53,12 +53,12 @@ $(document).ready(function(){
             $('#win').text(`Wins: ${totalWins}`);
             totalScore = 0;
             $('#total-score').text(`Total score: ${totalScore}`);
-            winningNum = Math.floor((Math.random() * 51) + 25);
+            winningNum = Math.floor((Math.random() * 100) + 19);
             $('#random-number').text(winningNum);
-            crysNum1 = Math.floor((Math.random() * 15) + 1);
-            crysNum2 = Math.floor((Math.random() * 15) + 1);
-            crysNum3 = Math.floor((Math.random() * 15) + 1);
-            crysNum4 = Math.floor((Math.random() * 15) + 1);
+            crysNum1 = Math.floor((Math.random() * 12) + 1);
+            crysNum2 = Math.floor((Math.random() * 12) + 1);
+            crysNum3 = Math.floor((Math.random() * 12) + 1);
+            crysNum4 = Math.floor((Math.random() * 12) + 1);
 
             console.log('-----');
             console.log(crysNum1);
@@ -71,12 +71,12 @@ $(document).ready(function(){
             $('#loss').text(`Losses: ${totalLosses}`);
             totalScore = 0;
             $('#total-score').text(`Total score: ${totalScore}`);
-            winningNum = Math.floor((Math.random() * 51) + 25);
+            winningNum = Math.floor((Math.random() * 19) + 100);
             $('#random-number').text(winningNum);
-            crysNum1 = Math.floor((Math.random() * 15) + 1);
-            crysNum2 = Math.floor((Math.random() * 15) + 1);
-            crysNum3 = Math.floor((Math.random() * 15) + 1);
-            crysNum4 = Math.floor((Math.random() * 15) + 1);
+            crysNum1 = Math.floor((Math.random() * 12) + 1);
+            crysNum2 = Math.floor((Math.random() * 12) + 1);
+            crysNum3 = Math.floor((Math.random() * 12) + 1);
+            crysNum4 = Math.floor((Math.random() * 12) + 1);
 
             console.log('-----');
             console.log(crysNum1);
