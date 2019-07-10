@@ -9,10 +9,6 @@ $(document).ready(function(){
     var crysNum2 = Math.floor((Math.random() * 12) + 1);
     var crysNum3 = Math.floor((Math.random() * 12) + 1);
     var crysNum4 = Math.floor((Math.random() * 12) + 1);
-    console.log(crysNum1);
-    console.log(crysNum2);
-    console.log(crysNum3);
-    console.log(crysNum4);
 
     // Randomly generated number to be matched to win game
     $('#random-number').text(winningNum);
@@ -60,11 +56,6 @@ $(document).ready(function(){
             crysNum3 = Math.floor((Math.random() * 12) + 1);
             crysNum4 = Math.floor((Math.random() * 12) + 1);
 
-            console.log('-----');
-            console.log(crysNum1);
-            console.log(crysNum2);
-            console.log(crysNum3);
-            console.log(crysNum4);
         } else if(totalScore > winningNum){
             alert('YOU LOST!');
             totalLosses++;
@@ -77,15 +68,6 @@ $(document).ready(function(){
             crysNum2 = Math.floor((Math.random() * 12) + 1);
             crysNum3 = Math.floor((Math.random() * 12) + 1);
             crysNum4 = Math.floor((Math.random() * 12) + 1);
-
-            console.log('-----');
-            console.log(crysNum1);
-            console.log(crysNum2);
-            console.log(crysNum3);
-            console.log(crysNum4);
         }
     }
-    
-    
-
 })
